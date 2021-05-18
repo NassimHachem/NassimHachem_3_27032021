@@ -1,0 +1,21 @@
+{
+  "name": "openclassroomsprojects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:css/style.css -w --style compressed",
+    "prefix": "postcss css/style.css --use autoprefixer -d css/prefixer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NassimHachem/OpenClassroomsProjects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": "last 4 versions" ,
+  "bugs": {
+    "url": "https://github.com/NassimHachem/OpenClassroomsProjects/issues"
+  },
+  "homepage": "https://github.com/NassimHachem/OpenClassroomsProjects#readme"
+}
